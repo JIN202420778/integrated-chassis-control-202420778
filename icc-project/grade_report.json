@@ -1,0 +1,146 @@
+{
+  "student": {
+    "student_id": "202420778",
+    "name": "JINWOOJEONG",
+    "team_members": [],
+    "course": "C050-4/자동제어",
+    "ai_usage": "Gemini used for discussion of controller concepts and gain tuning. ChatGPT used for MATLAB code development and plotting."
+  },
+  "timestamp": "2026-06-23T23:06:13",
+  "quantitative": {
+    "score": 52.225857338445508,
+    "max": 70,
+    "pct": 74.608367626350727
+  },
+  "deductions": {
+    "amount": 0,
+    "reasons": []
+  },
+  "errors": [],
+  "breakdown": [
+    {
+      "sid": "A3",
+      "kpi": "yawRateOvershoot",
+      "value": 2.4124659333296781,
+      "target": 10,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateRiseTime",
+      "value": 0.05699999999999994,
+      "target": 0.3,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A3",
+      "kpi": "yawRateSettling",
+      "value": 0.633,
+      "target": 0.8,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "A1",
+      "kpi": "sideSlipMax",
+      "value": 2.6002211690073489,
+      "target": 3,
+      "score": 6,
+      "max": 6
+    },
+    {
+      "sid": "A1",
+      "kpi": "LTR_max",
+      "value": 0.75206455260128169,
+      "target": 0.6,
+      "score": 3.7327953949893189,
+      "max": 5
+    },
+    {
+      "sid": "A1",
+      "kpi": "lateralDevMax",
+      "value": 1.9199359236778124,
+      "target": 0.7,
+      "score": 0,
+      "max": 4
+    },
+    {
+      "sid": "A4",
+      "kpi": "understeerGradient",
+      "value": 0.00074791143397055326,
+      "target": 0.003,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A4",
+      "kpi": "sideSlipMax",
+      "value": 1.1774907160362167,
+      "target": 2,
+      "score": 5,
+      "max": 5
+    },
+    {
+      "sid": "A7",
+      "kpi": "sideSlipMax",
+      "value": 1.8962340462402716,
+      "target": 5,
+      "score": 8,
+      "max": 8
+    },
+    {
+      "sid": "A7",
+      "kpi": "LTR_max",
+      "value": 0.32536655157519023,
+      "target": 0.7,
+      "score": 7,
+      "max": 7
+    },
+    {
+      "sid": "B1",
+      "kpi": "stoppingDistance",
+      "value": 72.2992319914078,
+      "target": 40,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "B1",
+      "kpi": "absSlipRMS",
+      "value": 0.72950347098814272,
+      "target": 0.1,
+      "score": 0,
+      "max": 5
+    },
+    {
+      "sid": "D1",
+      "kpi": "sideSlipMax",
+      "value": 3.1551817099066826,
+      "target": 4,
+      "score": 4,
+      "max": 4
+    },
+    {
+      "sid": "D1",
+      "kpi": "LTR_max",
+      "value": 0.75208141696314057,
+      "target": 0.6,
+      "score": 1.493061943456198,
+      "max": 2
+    },
+    {
+      "sid": "D1",
+      "kpi": "lateralDevMax",
+      "value": 1.9199359236778124,
+      "target": 1,
+      "score": 0,
+      "max": 2
+    }
+  ],
+  "final_auto": 52.225857338445508,
+  "ctrl_signature": "f25970069e3854fa8b2aa3eefdbc3c01255f7e7ddf845ffd1db53d205d4c0507",
+  "matlab_version": "25.2 (R2025b)",
+  "solver_used": "ode45"
+}
